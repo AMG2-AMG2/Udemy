@@ -1,0 +1,72 @@
+
+@media (min-width: 64rem)
+{
+  header{
+    .ul_header{
+      li.li_hamb.li_head
+      {
+        display:none;
+      }
+    }
+
+    .udm_sectie_kaartjes
+    {
+      bottom:23rem;
+      width:45%;
+    }
+  }
+  main{
+    .udm_artikel4{
+      left:0;
+      width:100%;
+      .udm_kaartjes3_sectie{
+        .div-txt_kaartjes3{
+          width:100%;
+        }
+      }
+
+      .sectie_kaartjes_udm {
+        height: 53rem;
+        .artikel_kaartjes31_udm{
+          padding-bottom:3rem;
+        }
+      }
+    }
+
+    .kaartjes_katogorie_udm{
+      padding:0 2rem;
+      height: 62rem;
+    }
+
+    .sectie_mederwerker{
+      height: 35rem;
+      width: 100%;
+      .artikel_trust_medewerker{
+        height:35rem;
+        .div_trusted_by_team{
+          flex-wrap: wrap;
+        }
+      }
+    }
+
+    .sectie_udm_werk{
+      height: 35rem;
+      width: 50%;
+    }
+
+
+  }
+
+  footer {
+    .secite_footer {
+      .artikel_footer{
+        flex-direction: row-reverse;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+      }
+    }
+  }
+}

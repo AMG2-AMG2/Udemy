@@ -1,0 +1,12 @@
+@use './header/header.scss';
+@use './main/reset.scss';
+@use './main/main.scss';
+@use './footer/footer.scss';
+@use './main/variables';
+
+//Response
+@use './responsive/mobile.scss';
+@use './responsive/tablet-min-res.scss';
+@use './responsive/tablet.scss';
+@use './responsive/laptop.scss';
+@use './responsive/desktop.scss';

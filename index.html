@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Udemy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/be03e873de.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+<header class="header">
+    <ul class="ul_header">
+        <li onclick="openHamb();" class="li_hamb li_head"><i class="hamb_icon"></i>
+        </li>
+        <img class="logo" src="img/Udemy-Logo-2021-present.png" alt="Udemy logo in het groot.">
+
+        <li class="li_head">
+            <p>Categorieën</p>
+        </li>
+        <li class="li_head li_zoek_balk">
+            <label>
+                <img class="search-bar_header_icon" src="img/icons8-search-30.png" alt="">
+                <input class="search_bar_header" type="text" placeholder="Alles zoeken">
+            </label>
+        </li>
+        <li class="li_head">Games Streamen</li>
+        <li class="li_head">Games Verkopen</li>
+        <li class="li_head">
+            <img class="winkelwagen_head" src="img/icons8-shopping-cart-24.png" alt="">
+        </li>
+        <li class="li_head">
+            <button class="head_inlogggener">Inloggen</button>
+        </li>
+        <li class="li_head">
+            <button class="head_inschrijven">Inschrijven</button>
+        </li>
+        <li class="li_head">
+            <img class="head_wereld_info" src="img/icons8-geography-50.webp" alt="">
+        </li>
+    </ul>
+</header>
+
+<main>
+    <section class="sectie_udm1">
+        <img class="sectie_udm_foto2" src="img/battelfield.webp" alt="">
+    </section>
+    <section class="udm_sectie_kaartjes">
+        <div class="udm_kaart_div2">
+            <h2 class="kaart_h2">We helpen je je spellen te bestellen</h2>
+            <p class="kaartjes_p">Meld je aan om te kunnen zien hoeveel spelletjes er zijn.</p>
+        </div>
+    </section>
+
+    <article class="udm_artikel4">
+        <section class="udm_sectie-van_keuze">
+            <p class="txt_artikel_udm">Meeste spellen.</p>
+        </section>
+        <section class="udm_kaartjes3_sectie">
+            <article class="udm_kaaartjes_artikel">
+                <li class="div_kaartjes" onclick="opentabs('Apex-Legends')">Apex-Legends</li>
+                <li class="div_kaartjes" onclick="opentabs('Fornite')">Fornite</li>
+                <li class="div_kaartjes" onclick="opentabs('devour')">Devour</li>
+                <li class="div_kaartjes" onclick="opentabs('Fivem')">Fivem</li>
+                <li class="div_kaartjes" onclick="opentabs('Warzone')">Warzone</li>
+                <li class="div_kaartjes" onclick="opentabs('Phamophobia')">Phamophobia</li>
+                <li class="div_kaartjes" onclick="opentabs('Batelfield Hardline')">Batelfield Hardline</li>
+            </article>
+            <div id="Apex-Legends" class="div-txt_kaartjes3 carousl">
+                <h2>Apex is een battle royale spel</h2>
+                 <p class="kaartjes_p">
+                    Apex Legends is een battle royalespel dat is ontwikkeld door Respawn Entertainment en uitgegeven
+                    door EA. Het gratis spel is op 4 februari 2019 uitgekomen voor PlayStation 4, Windows en Xbox
+                    One. Het is in 2021 ook beschikbaar gekomen voor Nintendo Switch.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+            <div id="Fornite" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Een battle royale spel</h2>
+                <p class="kaartjes_p">Fortnite is een online computerspel ontwikkeld door Epic Games dat is
+                    uitgebracht in 2017. Het is beschikbaar in drie verschillende gamemodes die dezelfde algemene
+                    gameplay en engine delen: Fortnite</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+            <div id="devour" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Een leuk horror spel</h2>
+                <p class="kaartjes_p">DEVOUR is a co-op horror survival game for 1-4 players. Stop possessed cultists before they drag you to hell. Run. Scream. Hide. Just don't get caught.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk voor meer informatie</button>
+            </div>
+            <div id="Fivem" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Fivem is een roleplay game van Grand Theft Auto 5</h2>
+                <p class="kaartjes_p">
+                    FiveM
+                    Forum
+                    Docs
+                    Servers
+                    Cookbook
+                    GitHub
+                    Terms
+                    Patreon
+                    Forum
+                    Docs
+                    Servers
+                    Cookbook
+                    GitHub
+                    Terms
+                    Patreon
+                    FiveM is a modification for Grand Theft Auto V enabling you to play multiplayer on customized
+                    dedicated servers, powered by Cfx.re.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+            <div id="Warzone" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Warzone is een playground game</h2>
+                <p class="kaartjes_p">Call of Duty: Warzone is een battle royalespel dat is ontwikkeld door Infinity
+                    Ward en Raven Software en uitgegeven door Activision. Het gratis spel is op 10 maart 2020
+                    uitgekomen voor PlayStation 4, Windows en Xbox One.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+            <div id="Phamophobia" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Speel in de nacht dit spel</h2>
+                <p class="kaartjes_p">Vertaald uit het Engels-Phasmophobia is een onderzoeks-horrorspel ontwikkeld
+                    en uitgegeven door de Britse indie-gamestudio Kinetic Games. Het is voornamelijk gebaseerd op de
+                    populaire hobby van het jagen op spoken. De game kwam in september 2020 beschikbaar in vroege
+                    toegang via Steam voor Microsoft Windows met virtual reality-ondersteuning.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+            <div id="Batelfield Hardline" class="div-txt_kaartjes3 carousl" style="display:none">
+                <h2>Vebeter je schoten tegen je vijanden.</h2>
+                <p class="kaartjes_p">Battlefield Hardline is een first-person shooter ontwikkeld door Visceral
+                    Games en DICE. Het spel werd net als alle andere spellen in de Battlefield-serie uitgegeven door
+                    Electronic Arts. Het spel kwam in Europa op 19 maart 2015 uit voor PlayStation 3, PlayStation 4,
+                    Windows, Xbox 360 en Xbox One.</p>
+                <button class="knopjes_kaartjes_txt">Bekijk meer informatie</button>
+            </div>
+        </section>
+
+        <section class="sectie_kaartjes_udm">
+            <h1 class="sectie_kaartjes_udm_h1">Most played games</h1>
+            <article class="artikel_kaartjes31_udm">
+                <div class="div_kaartjes124">
+                    <img src="img/apex.webp" alt="Foto van een game" class="udm_kaartjes_fotos12">
+                    <article class="artikel_txt_kaartjes1234">
+                        <h5>Apex-Legends Battle Royale Game</h2>
+                            <p class="gebruikernaarm_p">Mackey McCandlish</p>
+                            <div class="bericht_div_sterretjes">
+                                <p class="bericht_p13">4,4</p>
+                                <li class="bericht_li">
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <sup>[29]</sup>
+                                </li>
+                            </div>
+                            <div class="prijs_kaartjes12">
+                                <p class="prijs_momenteel">€ Free</p>
+                                <p class="prijs_opmerking_kaartjes">39,99</p>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="div_kaartjes124">
+                    <img src="img/fortnite.webp" alt="Fortnite" class="udm_kaartjes_fotos12">
+                    <article class="artikel_txt_kaartjes1234">
+                        <h5>Fortnite</h2>
+                            <p class="gebruikernaarm_p">People Can Fly</p>
+                            <div class="bericht_div_sterretjes">
+                                <p class="bericht_p13">3,4</p>
+                                <li class="bericht_li">
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <sup>(29)</sup>
+                                </li>
+                            </div>
+                            <div class="prijs_kaartjes12">
+                                <p class="prijs_momenteel">€ Free</p>
+                                <p class="prijs_opmerking_kaartjes">€ Free</p>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="div_kaartjes124">
+                    <img src="img/devour.webp" alt="Foto van een voetbal spel" class="udm_kaartjes_fotos12">
+                    <article class="artikel_txt_kaartjes1234">
+                        <h5>Devour is een horror spelletje</h2>
+                            <p class="gebruikernaarm_p">Unknown</p>
+                            <div class="bericht_div_sterretjes">
+                                <p class="bericht_p13">5,0</p>
+                                <li class="bericht_li">
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <sup>(29)</sup>
+                                </li>
+                            </div>
+                            <div class="prijs_kaartjes12">
+                                <p class="prijs_momenteel">€58,99</p>
+                                <p class="prijs_opmerking_kaartjes">€58,99</p>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="div_kaartjes124">
+                    <img src="img/fivem.webp" alt="Foto Gta roleplay" class="udm_kaartjes_fotos12">
+                    <article class="artikel_txt_kaartjes1234">
+                        <h5>Fivem Roleplay {GTA Roleplay}</h2>
+                            <p class="gebruikernaarm_p">Unknown</p>
+                            <div class="bericht_div_sterretjes">
+                                <p class="bericht_p13">,.9</p>
+                                <li class="bericht_li">
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <sup>(29)</sup>
+                                </li>
+                            </div>
+                            <div class="prijs_kaartjes12">
+                                <p class="prijs_momenteel">€ Free</p>
+                                <p class="prijs_opmerking_kaartjes">€ Free</p>
+                            </div>
+                    </article>
+                </div>
+
+                <div class="div_kaartjes124">
+                    <img src="img/warzone.webp" alt="Foto van het spel warzone"
+                         class="udm_kaartjes_fotos12">
+                    <div class="overlay"></div>
+                    <article class="artikel_txt_kaartjes1234">
+                        <h5>Warzone is een Schiet battle royale spel.</h5>
+                            <p class="gebruikernaarm_p">Raven Software, Infinity Ward</p>
+                            <div class="bericht_div_sterretjes">
+                                <p class="bericht_p13">4,8</p>
+                                <li class="bericht_li">
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <i class="fa-solid fa-star revieuw_icon-orange"></i>
+                                    <sup>(29)</sup>
+                                </li>
+                            </div>
+                            <div class="prijs_kaartjes12">
+                                <p class="prijs_momenteel">€ Free</p>
+                                <p class="prijs_opmerking_kaartjes">€125,99</p>
+                            </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+
+
+    </article>
+
+    <section>
+        <article class="kaartjes_katogorie_udm">
+            <h2>Verschillende games die je kunt spellen.</h2>
+            <div class="div_kotogorie_kaartjes56">
+                <article class="artikel_katogorie_123">
+                    <div class="kotogieen_divs">
+                        <h3 class="h1_kotogieen_divs">Action games.</h3>
+                        <p class="p_kotogieen_divs">Warzone</p>
+                        <sub class="sub_kotogieen_divs">Ruim 100 miljoen (april 2021) Gekocht</sub>
+                        <p class="p_kotogieen_divs">Battelfield roleplay</p>
+                        <sub class="sub_kotogieen_divs">Ruim 10 miljoen Gekocht</sub>
+
+                    </div>
+                    <div class="kotogieen_divs">
+                        <h3 class="h1_kotogieen_divs">Drive games.</h3>
+                        <p class="p_kotogieen_divs">The Crew 2</p>
+                        <sub class="sub_kotogieen_divs">aantal stuks verkocht 8 Miljoen.</sub>
+                        <p class="p_kotogieen_divs">Need For Speed</p>
+                        <sub class="sub_kotogieen_divs">aantal stuks verkocht 9 Miljoen.</sub>
+
+                    </div>
+                    <div class="kotogieen_divs">
+                        <h3 class="h1_kotogieen_divs">Avontuur games</h3>
+                        <p class="p_kotogieen_divs">Uncharted</p>
+                        <sub class="sub_kotogieen_divs">aantal stuks verkocht 11 Miljoen.</sub>
+                        <p class="p_kotogieen_divs">Farcry 5</p>
+                        <sub class="sub_kotogieen_divs">aantal stuks verkocht 21 Miljoen.</sub>
+
+                    </div>
+                </article>
+                <button class="knopjes_katogorieeen_games">Meer games verkennen</button>
+            </div>
+        </article>
+
+        <article class="instruc_actief">
+            <section class="sectie_intructeur">
+                <div class="div_instractor_image">
+                    <img src="img/fivem.webp" alt="" class="intructie_foto">
+                </div>
+                <div class="div_intractor_text">
+                    <h2 class="h1_intractor">Fivem downloaden internet.</h2>
+                    <p class="p_instractor">Miljoenen mensen die fivem speller spellen of combat op roleplay servers
+                        het is Grand Theft Auto 5 maar dan alles met merk enzvoort.
+                    </p>
+                    <button class="knopje_intrs">Fivem is een leuk spel die je gezamelijk kunt bekijken.</button>
+                </div>
+            </section>
+        </article>
+
+        <section class="sectie_mederwerker">
+            <article class="artikel_trust_medewerker">
+                <h2 class="txt_tru_mewerkeras">Bedrijven die sponsoren</h2>
+                <p class="p_trusted_by_team">Alle logo's hieronder zijn de merken die ons sponsoren.</p>
+                <div class="div_trusted_by_team">
+                    <img src="img/nasdaq-dark.svg" alt="" class="foto_mewerkers_sf">
+                    <img src="img/volkswagen-dark.svg" alt="" class="foto_mewerkers_sf">
+                    <img src="img/box-dark.svg" alt="" class="foto_mewerkers_sf">
+                    <img src="img/netapp-dark.svg" alt="" class="foto_mewerkers_sf">
+                    <img src="img/eventbrite-dark.svg" alt="" class="foto_mewerkers_sf">
+                    <img src="img/tcs-dark.svg" alt="" class="foto_mewerkers_sf">
+                </div>
+            </article>
+        </section>
+
+        <section class="sectie_udm_werk">
+            <article class="atikel_udm_werk3">
+                <div class="div-udm_txt_werk">
+                    <img class="foto_txt_dm_werken1" src="img/gamemaker.webp" alt="">
+                    <p>
+                        Maak je RPG games met gamemaker of met RPG MAKER.
+                    </p>
+                    <button class="buttonfoto_txt_dm_werken1">NEEM UDEMY BUSINESS</button>
+                </div>
+                <div class="foto_udmey_werken_124">
+                    <img class="imagefoto_udmey_werken_124" src="img" alt="">
+                </div>
+            </article>
+        </section>
+
+        <section class="verander">
+            <article class="article_verander">
+                <div class="div_verander_image">
+                    <img src="img/instructor-2x-v3.webp" alt="" class="img_veranderen">
+                </div>
+
+                <div class="div_veranderen_text">
+                    <h2 class="h1_div_veranderen_text">Breng verandering in je game leven!</h2>
+                    <p class="p_div_veranderen_text">Van gamen wordt je gelukkig dus pak je console en speel een spelletje.</p>
+                    <button class="knopjes_verander">Kijk hoe je meer kunt spellen.</button>
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <section class="secite_footer">
+                <article class="artikel_footer">
+                    <div class="ul_bollen_footer">
+                        <img src="img/icons8-geography-52.webp" alt="" class="foto_werked_footer">
+                        <p>Nederland</p>
+                    </div>
+                    <div class="ul_footer">
+                        <li class="li_footer">Udemy Business</li>
+                        <li class="li_footer">Lesgeven op Udemy</li>
+                        <li class="li_footer">De app Downloaden</li>
+                        <li class="li_footer">Info over ons</li>
+                        <li class="li_footer">Contact opnemen</li>
+                    </div>
+                    <div class="ul_footer">
+                        <li class="li_footer">Vacatures</li>
+                        <li class="li_footer">Blog</li>
+                        <li class="li_footer">Hulp en ondersteuning</li>
+                        <li class="li_footer">Partner</li>
+                        <li class="li_footer">Investeerders</li>
+                    </div>
+                    <div class="ul_footer">
+                        <li class="li_footer">Voorwaarden</li>
+                        <li class="li_footer">Privacybeleid</li>
+                        <li class="li_footer">Cookie-instellingen</li>
+                        <li class="li_footer">Sitemap</li>
+                        <li class="li_footer">Toegankelijkheidsverklaring</li>
+                    </div>
+                </article>
+
+            </section>
+
+            <article class="artikel_iccooonje">
+                <div class="iccoonjjess">
+                    <img src="img/icons8-geography-52.webp" alt="" class="foto_icooonje">
+                </div>
+                <div class="aut_txt">
+                    <p>© 2022 Udemy, Inc. Made by Halil Dogan</p>
+                </div>
+            </article>
+
+
+        </footer>
+</main>
+
+<script type="text/javascript">
+
+    var header = document.querySelector("body > header > ul");
+    var menus = document.querySelectorAll("body > header > ul > li");
+
+    document.addEventListener("click", function (e) {
+        if (!header.contains(e.target)) {
+            closeHamb();
+        }
+
+
+    })
+    function openHamb() {
+        menus.forEach(function (element, index, array) {
+
+            if (index == 0) {
+                element.setAttribute("class", "li_hamb li_head lock");
+            } else {
+                element.setAttribute("class", "li_head unlock");
+            }
+
+        })
+        header.setAttribute("class", "ul_header unlock");
+    }
+
+    function closeHamb() {
+        menus.forEach(function (element, index, array) {
+
+            if (index == 0) {
+                element.setAttribute("class", "li_hamb li_head");
+            } else {
+                element.setAttribute("class", "li_head");
+            }
+        })
+        header.setAttribute("class", "ul_header");
+    }
+</script>
+</body>
+</html>

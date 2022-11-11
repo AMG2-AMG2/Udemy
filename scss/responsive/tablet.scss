@@ -1,0 +1,809 @@
+@media (min-width:43.75rem) and (max-width: 64rem) {
+  body {
+    width: 100%;
+  }
+  header {
+    .head_inlogggener,.head_inschrijven{
+      border:unset;
+      color: #5624d0;
+      width: 100%;
+      text-align:start;
+      background: unset;
+    }
+
+    ul.ul_header.unlock {
+      background: white;
+      left: 0rem;
+      top: 0rem;
+      z-index: 1022;
+      height: 100vh;
+      width: 60vh;
+      overflow: scroll;
+      position: absolute;
+
+      img.logo {
+        margin: auto;
+      }
+
+      li.li_hamb.li_head.lock {
+        display: none;
+      }
+
+      li.li_head.unlock:nth-child(4) {
+        label {
+          width: 100%;
+
+          img {
+            position: absolute;
+            padding-top: .6rem;
+            padding-left: .6rem;
+          }
+
+          input {
+            width: 100%;
+            height: 4.2rem;
+            padding-left: 3.6rem;
+            border-radius: 4rem;
+          }
+        }
+      }
+
+      li.li_head.unlock:nth-child(7) {
+        align-items: center;
+        justify-content: flex-start;
+        align-content: center;
+        display: flex;
+      }
+
+      li.li_head.unlock:nth-child(7):after {
+        content: " Cart";
+        display: inline-block;
+        margin-left: 1rem;
+        width: 2rem;
+      }
+      li.li_head.unlock:nth-child(10) {
+        display:none;
+      }
+    }
+
+    ul.ul_header {
+      display: grid !important;
+      width: 100%;
+      align-items: center;
+      justify-content: start !important;
+      box-shadow: 1rem 0 3rem 1rem rgb(0 0 0 / 20%);
+      list-style: none;
+      height: 8rem;
+      padding: 2rem;
+      gap: 2rem;
+      overflow: hidden;
+      transition: all .5s;
+      //visibility: hidden;
+      li.li_head:not(.li_hamb) {
+        display: none;
+        left: -30rem;
+      }
+
+      li.li_head.unlock {
+        display: unset;
+        transition: all .5s;
+      }
+
+      li.li_hamb {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        min-width: 183vh;
+
+        i {
+          text-align: center;
+        }
+
+        i:before {
+          content: "🍔";
+          display: block;
+          font-size: 2rem;
+          line-height: 2;
+        }
+
+        img {
+          right: 0;
+          height: auto !important;
+          width: 8rem !important;
+        }
+      }
+    }
+  }
+  main {
+
+    .udm_sectie_kaartjes {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      height: 5rem;
+      width: 45%;
+      bottom: 33rem;
+
+      .kaart_h2 {
+        width: unset;
+        font-size: 1.8rem;
+      }
+
+      .kaartjes_p {
+        width: unset;
+        font-size: 1.4rem;
+
+      }
+
+      .udm_kaart_div2 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 2rem;
+        width: calc(100% - 2.5rem);
+        height: 10rem;
+        top: 20rem;
+      }
+    }
+
+    .udm_artikel4 {
+      left: unset;
+      width: 100%;
+
+
+      .udm_sectie-van_keuze {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .txt_artikel_udm {
+          font-size: 2.8rem;
+          text-align: left;
+        }
+
+        .p_article_udemy {
+          font-size: 1.8rem;
+          width: 100%;
+        }
+      }
+
+      // product cards
+
+      .sectie_kaartjes_udm {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 8rem;
+        height: 100%;
+        gap: 2rem;
+        margin-bottom: 8rem;
+
+        .sectie_kaartjes_udm_h1 {
+          font-weight: 900;
+          font-size: 3rem;
+        }
+
+
+        .artikel_kaartjes31_udm {
+          display: grid;
+          grid-auto-columns: 33.33333333%;
+          grid-auto-flow: column;
+          gap: 1.3rem;
+          overflow: hidden;
+          height: 40rem;
+
+          .div_kaartjes124 {
+            width: 100%;
+            height: 30rem;
+            box-shadow: 0.5rem 0.5rem 2rem 0.111rem rgba(0, 0, 0, 0.3);
+            border-radius: 0.5rem;
+            background: rgba(255, 255, 255, 0.5);
+            position: relative;
+            cursor: pointer;
+            margin-bottom:2rem;
+
+
+            .artikel_txt_kaartjes1234 {
+              display: flex;
+              flex-direction: column;
+              gap: 1rem;
+              padding: 1rem 0.5rem;
+
+              .bericht_div_sterretjes {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .bericht_p13 {
+                  color: rgb(155, 106, 14);
+                }
+
+                .bericht_li {
+                  list-style: none;
+                  display: flex;
+                  align-items: center;
+                  gap: 0.3rem;
+
+
+                  .fa-star {
+                    font-size: 1.5rem;
+                    color: orange;
+                  }
+
+                }
+              }
+
+              .prijs_kaartjes12 {
+                display: flex;
+                gap: 2rem;
+
+                .prijs_momenteel {
+                  font-weight: 700;
+                  font-size: 1.8rem;
+                }
+
+                .prijs_opmerking_kaartjes {
+                  color: rgba(0, 0, 0, 0.5);
+                  text-decoration: line-through;
+                  font-size: 1.8rem;
+                }
+              }
+
+            }
+
+            .div_kaartjes124:hover .overlay {
+              opacity: 1;
+            }
+
+            .overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              transform: 0.5s ease;
+              background: rgba(0, 0, 0, 0.2);
+            }
+
+
+            .udm_kaartjes_fotos12 {
+              width: 100%;
+              height: 40%;
+              object-fit: cover;
+              border-top-left-radius: 0.5rem;
+              border-top-right-radius: 0.5rem;
+
+
+            }
+          }
+        }
+      }
+
+
+      .udm_kaartjes3_sectie {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+
+        .udm_kaaartjes_artikel {
+          display: flex;
+          gap: 2rem;
+
+          .div_kaartjes {
+            color: rgba(0, 0, 0, 0.9);
+            list-style: none;
+
+            &:hover {
+              color: rgba(0, 0, 0, 1);
+              cursor: pointer;
+            }
+
+
+            .article_carousel_horizontal {
+              min-height: 50rem;
+              background: green;
+
+
+            }
+          }
+        }
+
+        .div-txt_kaartjes3 {
+          width: 70%;
+          padding: 3rem;
+          min-height: 30rem;
+          gap: 2rem;
+
+          border: 0.1rem solid rgba(0, 0, 0, 0.5);
+
+
+          .img_kaartjes21 {
+            min-width: 100%;
+            max-height: 40rem;
+            object-fit: cover;
+          }
+
+
+          .kaartjes_p {
+            width: 100%;
+          }
+        }
+
+        .carousl {
+          display: flex;
+          flex-direction: column;
+
+          .knopjes_kaartjes_txt {
+            min-width: unset;
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            height: 4rem;
+            border: 0.1rem solid;
+            background: white;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+              background: rgba(0, 0, 0, 0.9);
+              color: white;
+            }
+          }
+        }
+
+      }
+
+
+    }
+
+    .udm_kaaartjes_artikel {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: flex-start;
+      align-items: center;
+
+      .div_kaartjes {
+        color: rgba(0, 0, 0, 0.9);
+        list-style: none;
+        font-size: 2rem;
+
+        &:hover {
+          color: rgba(0, 0, 0, 1);
+          cursor: pointer;
+        }
+
+
+        .article_carousel_horizontal {
+          min-height: 50rem;
+          background: green;
+
+
+        }
+      }
+    }
+
+
+    .div-txt_kaartjes3 {
+      width: 100% !important;
+      padding: 3rem;
+      min-height: 30rem;
+      gap: 2rem;
+
+      border: 0.1rem solid rgba(0, 0, 0, 0.5);
+
+
+      .img_kaartjes21 {
+        min-width: 100%;
+        max-height: 40rem;
+        object-fit: cover;
+      }
+
+
+      .kaartjes_p {
+        width: 100%;
+      }
+    }
+
+    .kaartjes_katogorie_udm {
+      background: #f7f9fa;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem;
+
+
+      .div_kotogorie_kaartjes56 {
+        display: flex;
+        gap: 4rem;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 2rem 0;
+
+
+        .artikel_katogorie_123 {
+
+
+          .kotogieen_divs {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 3rem;
+
+            .sub_kotogieen_divs {
+
+              &:hover {
+                color: orange;
+                cursor: pointer;
+                text-decoration: underline;
+              }
+            }
+
+            .p_kotogieen_divs {
+
+              &:hover {
+                color: orange;
+                cursor: pointer;
+                text-decoration: underline;
+              }
+            }
+
+
+            .h1_kotogieen_divs {
+
+              &:hover {
+                color: orange;
+                text-decoration: underline;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+
+      .knopjes_katogorieeen_games {
+        width: 22rem;
+        min-height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.1rem solid rgba(0, 0, 0, 0.5);
+        background: white;
+        cursor: pointer;
+        font-weight: 600;
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.01);
+
+        }
+      }
+
+    }
+
+    .instruc_actief {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+
+      .sectie_intructeur {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+        flex-wrap: nowrap;
+
+
+        .div_instractor_image {
+          width: 46%;
+
+
+          .intructie_foto {
+            width: 100%;
+            min-height: 100%;
+            border-radius: 0.5rem;
+            margin-left:1rem;
+            margin-right:1%;
+          }
+        }
+
+
+        .div_intractor_text {
+          width: 100%;
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+
+          .h1_intractor {
+            font-weight: 600;
+            font-size: 3rem;
+          }
+
+          .p_instractor {
+            width: 100%;
+          }
+
+          .knopje_intrs {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+
+            &:hover {
+              background: rgba(0, 0, 0, 1);
+            }
+
+          }
+        }
+
+      }
+
+    }
+
+
+    .sectie_mederwerker {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+
+      .artikel_trust_medewerker {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+        padding: 2rem;
+        background: #b8ddef;
+        height: 100%;
+
+        .txt_tru_mewerkeras {
+          font-size: 3rem;
+          font-weight: 600;
+        }
+
+        .div_trusted_by_team {
+          display: grid;
+          align-items: center;
+          justify-content: space-around;
+          gap: 3%;
+          grid-auto-flow: column;
+          grid-auto-columns: auto;
+          padding-bottom: 5rem;
+
+          img {
+            width: 8rem;
+          }
+        }
+      }
+    }
+
+
+    .sectie_udm_werk {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+
+      .atikel_udm_werk3 {
+        display: flex;
+        padding: 2rem;
+        width: 100%;
+        height: 100%;
+        gap: 2rem;
+
+
+        .div-udm_txt_werk {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 2rem;
+          width: 100%;
+
+          p {
+            font-size: 1.4rem;
+            text-align: center;
+          }
+
+          .buttonfoto_txt_dm_werken1 {
+            width: 100%;
+            height: 4rem;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+              background: rgba(0, 0, 0, 1);
+            }
+          }
+
+          .foto_txt_dm_werken1 {
+            max-width: 100%;
+            height: 40%;
+            object-fit: contain;
+          }
+
+        }
+
+        .foto_udmey_werken_124 {
+          display: flex;
+
+
+          .imagefoto_udmey_werken_124 {
+            width: 100%;
+            min-height: 40rem;
+            object-fit: cover;
+          }
+        }
+      }
+
+    }
+
+
+
+    .verander {
+      display: flex;
+      padding: 2rem;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      .article_verander {
+        .div_verander_image {
+          height: 100%;
+
+          .img_veranderen {
+            max-width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .div_veranderen_text {
+          padding: 3rem;
+          gap: 1.5rem;
+          width: 100%;
+          justify-content: center;
+
+          .h1_div_veranderen_text {
+            font-size: 3rem;
+            font-weight: 600;
+          }
+
+          .p_div_veranderen_text {
+            width: 100%;
+          }
+
+          .knopjes_verander {
+            width: 100%;
+            height: 4rem;
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+
+            &:hover {
+              background: rgba(0, 0, 0, 1);
+            }
+          }
+        }
+
+      }
+
+    }
+
+
+
+    .footer {
+      width: 100%;
+      height: 100%;
+      background: #1c1d1f;
+      display: flex;
+      flex-direction: column;
+
+      .secite_footer {
+        padding: 4rem;
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        align-content: center;
+        align-items: flex-start;
+
+
+        .artikel_footer {
+          display: flex;
+          gap: 3.33%;
+          align-content: flex-start;
+          justify-content: space-between;
+          align-items: flex-start;
+          justify-items: center;
+          flex-direction: row-reverse;
+
+
+          .ul_footer {
+            list-style: none;
+            display: unset;
+            flex-direction: unset;
+            font-size: 1.5rem;
+            gap: 1.5rem;
+            width: 100%;
+
+
+            .li_footer {
+              font-size: 1.5rem;
+              font-weight: 400;
+              cursor: pointer;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+
+        .ul_bollen_footer {
+          display: flex;
+          position: relative;
+          bottom: 2rem;
+          width: 45rem;
+          align-items: center;
+          height: 4rem;
+          padding: 1rem;
+          border: 0.1rem solid rgb(255, 253, 253);
+          cursor: pointer;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.5);
+          }
+
+          .foto_werked_footer {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+
+
+      }
+
+      .artikel_iccooonje {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 4rem;
+        align-items: center;
+        color: white;
+
+        .iccoonjjess {
+
+          .foto_icooonjer {
+            max-width: 6rem;
+          }
+        }
+      }
+    }
+
+  }
+}

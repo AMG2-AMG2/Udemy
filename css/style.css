@@ -1,0 +1,2521 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .ul_header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1rem 0 3rem 1rem rgba(0, 0, 0, 0.2);
+  list-style: none;
+  height: 8rem;
+  padding: 2rem;
+  gap: 2rem;
+}
+.header .ul_header .logo {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+.header .ul_header .li_head {
+  list-style: none;
+  cursor: pointer;
+}
+.header .ul_header .li_zoek_balk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  height: 3rem;
+}
+.header .ul_header .li_zoek_balk label {
+  width: 100%;
+}
+.header .ul_header .li_zoek_balk label .search-bar_header_icon {
+  position: absolute;
+  width: 2.5rem;
+  top: 2.8rem;
+  margin-left: 1rem;
+}
+.header .ul_header .li_zoek_balk label input {
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 3rem;
+}
+.header .ul_header .li_zoek_balk label .search_bar_header {
+  padding-left: 5rem;
+}
+
+.zoek_balk_header {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  padding: 2rem 5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+}
+
+.head_inlogggener {
+  width: 8rem;
+  height: 4rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.head_inschrijven {
+  width: 10rem;
+  height: 4rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-weight: 600;
+}
+
+.head_inschrijven:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.head_wereld_info {
+  width: 4rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.9);
+  padding: 0.8rem;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .section_main_udemy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section_main_udemy .section_main_udemy_foto {
+  width: 85%;
+  height: 40rem;
+  object-fit: cover;
+}
+main section.sectie_udm1 img.sectie_udm_foto2 {
+  width: 100%;
+}
+main .udm_sectie_kaartjes {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 5rem;
+  width: 53%;
+  bottom: 32rem;
+}
+main .udm_sectie_kaartjes .kaart_h2 {
+  width: 25ch;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+main .udm_sectie_kaartjes .kaartjes_p {
+  width: 38ch;
+}
+main .udm_sectie_kaartjes .udm_kaart_div2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 1.5rem;
+  padding: 2rem;
+  width: 42.5rem;
+  height: 20rem;
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.1);
+}
+main .udm_artikel4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 12rem;
+  width: 85%;
+  padding: 2rem;
+  gap: 2rem;
+}
+main .udm_artikel4 .udm_sectie-van_keuze {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .udm_artikel4 .udm_sectie-van_keuze .txt_artikel_udm {
+  font-size: 4rem;
+}
+main .udm_artikel4 .udm_sectie-van_keuze .p_article_udemy {
+  font-size: 2rem;
+  width: 70ch;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel {
+  display: flex;
+  gap: 2rem;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes {
+  color: rgba(0, 0, 0, 0.9);
+  list-style: none;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+  min-height: 50rem;
+  background: green;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 {
+  width: 70%;
+  padding: 3rem;
+  min-height: 30rem;
+  gap: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.5);
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .img_kaartjes21 {
+  min-width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .kaartjes_p {
+  width: 100%;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .carousl {
+  display: flex;
+  flex-direction: column;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt {
+  min-width: 12rem;
+  max-width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 4rem;
+  border: 0.1rem solid;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+main .udm_artikel4 .sectie_kaartjes_udm {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 8rem;
+  height: 60rem;
+  gap: 2rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .sectie_kaartjes_udm_h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm {
+  display: flex;
+  gap: 1.3rem;
+  overflow: hidden;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 {
+  width: 25rem;
+  height: 35rem;
+  box-shadow: 0.5rem 0.5rem 2rem 0.111rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0.5rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_p13 {
+  color: rgb(155, 106, 14);
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li .fa-star {
+  font-size: 1.5rem;
+  color: orange;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 {
+  display: flex;
+  gap: 2rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_momenteel {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_opmerking_kaartjes {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+  font-size: 1.8rem;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .div_kaartjes124:hover .overlay {
+  opacity: 1;
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: 0.5s ease;
+  background: rgba(0, 0, 0, 0.2);
+}
+main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .udm_kaartjes_fotos12 {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+main .kaartjes_katogorie_udm {
+  background: #f7f9fa;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 14rem;
+  flex-direction: column;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+  width: 100%;
+  height: 40rem;
+  padding: 2rem 0;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .sub_kotogieen_divs:hover {
+  color: orange;
+  cursor: pointer;
+  text-decoration: underline;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .p_kotogieen_divs:hover {
+  color: orange;
+  cursor: pointer;
+  text-decoration: underline;
+}
+main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .h1_kotogieen_divs:hover {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+main .kaartjes_katogorie_udm .knopjes_katogorieeen_games {
+  width: 22rem;
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  background: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+main .kaartjes_katogorie_udm .knopjes_katogorieeen_games:hover {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.instruc_actief {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.instruc_actief .sectie_intructeur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+.instruc_actief .sectie_intructeur .div_instractor_image {
+  width: 45rem;
+}
+.instruc_actief .sectie_intructeur .div_instractor_image .intructie_foto {
+  width: 100%;
+  min-height: 40rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.instruc_actief .sectie_intructeur .div_intractor_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.instruc_actief .sectie_intructeur .div_intractor_text .h1_intractor {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.instruc_actief .sectie_intructeur .div_intractor_text .p_instractor {
+  width: 38ch;
+}
+.instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs:hover {
+  background: rgb(0, 0, 0);
+}
+
+.sectie_mederwerker {
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sectie_mederwerker .artikel_trust_medewerker {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  padding: 2rem;
+  background: #b8ddef;
+  height: 25rem;
+}
+.sectie_mederwerker .artikel_trust_medewerker .txt_tru_mewerkeras {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10%;
+}
+
+.sectie_udm_werk {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50rem;
+}
+.sectie_udm_werk .atikel_udm_werk3 {
+  display: flex;
+  padding: 2rem;
+  width: 50%;
+  height: 40rem;
+  gap: 2rem;
+}
+.sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+.sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1 {
+  width: 20rem;
+  height: 4rem;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  cursor: pointer;
+}
+.sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1:hover {
+  background: rgb(0, 0, 0);
+}
+.sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .foto_txt_dm_werken1 {
+  max-width: 100%;
+  height: 40%;
+  object-fit: contain;
+}
+.sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 {
+  display: flex;
+}
+.sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 .imagefoto_udmey_werken_124 {
+  width: 100%;
+  min-height: 40rem;
+  object-fit: cover;
+}
+
+.verander {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+}
+.verander .article_verander {
+  display: flex;
+  justify-content: center;
+}
+.verander .article_verander .div_verander_image {
+  display: flex;
+  height: 40rem;
+}
+.verander .article_verander .div_verander_image .img_veranderen {
+  max-width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+.verander .article_verander .div_veranderen_text {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 40ch;
+}
+.verander .article_verander .div_veranderen_text .h1_div_veranderen_text {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.verander .article_verander .div_veranderen_text .p_div_veranderen_text {
+  width: 36ch;
+}
+.verander .article_verander .div_veranderen_text .knopjes_verander {
+  width: 20rem;
+  height: 4rem;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.verander .article_verander .div_veranderen_text .knopjes_verander:hover {
+  background: rgb(0, 0, 0);
+}
+
+.footer {
+  width: 100%;
+  height: 30rem;
+  background: #1c1d1f;
+  display: flex;
+  flex-direction: column;
+}
+.footer .secite_footer {
+  padding: 4rem;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.footer .secite_footer .artikel_footer {
+  display: flex;
+  gap: 15rem;
+}
+.footer .secite_footer .artikel_footer .ul_footer {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 1.5rem;
+}
+.footer .secite_footer .artikel_footer .ul_footer .li_footer {
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.footer .secite_footer .artikel_footer .ul_footer .li_footer:hover {
+  text-decoration: underline;
+}
+.footer .secite_footer .ul_bollen_footer {
+  display: flex;
+  position: relative;
+  bottom: 2rem;
+  width: 14rem;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem;
+  border: 0.1rem solid rgb(255, 253, 253);
+  cursor: pointer;
+}
+.footer .secite_footer .ul_bollen_footer:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+.footer .secite_footer .ul_bollen_footer .foto_werked_footer {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.footer .artikel_iccooonje {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  color: white;
+}
+.footer .artikel_iccooonje .iccoonjjess .foto_icooonjer {
+  max-width: 6rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 100%;
+  }
+  header .head_inlogggener, header .head_inschrijven {
+    border: unset;
+    color: #5624d0;
+    width: 100%;
+    text-align: start;
+    background: unset;
+  }
+  header ul.ul_header.unlock {
+    background: white;
+    left: 0rem;
+    top: 0rem;
+    z-index: 1022;
+    height: 100vh;
+    width: 60vh;
+    overflow: scroll;
+    position: absolute;
+  }
+  header ul.ul_header.unlock img.logo {
+    margin: auto;
+  }
+  header ul.ul_header.unlock li.li_hamb.li_head.lock {
+    display: none;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label {
+    width: 100%;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label img {
+    position: absolute;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label input {
+    width: 100%;
+    height: 4.2rem;
+    padding-left: 3.6rem;
+    border-radius: 4rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7) {
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7):after {
+    content: " Cart";
+    display: inline-block;
+    margin-left: 1rem;
+    width: 2rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(10) {
+    display: none;
+  }
+  header ul.ul_header {
+    display: grid !important;
+    width: 100%;
+    align-items: center;
+    justify-content: start !important;
+    box-shadow: 1rem 0 3rem 1rem rgba(0, 0, 0, 0.2);
+    list-style: none;
+    height: 8rem;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_head:not(.li_hamb) {
+    display: none;
+    left: -30rem;
+  }
+  header ul.ul_header li.li_head.unlock {
+    display: unset;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_hamb {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 68vh;
+  }
+  header ul.ul_header li.li_hamb i {
+    text-align: center;
+  }
+  header ul.ul_header li.li_hamb i:before {
+    content: "<|>";
+    display: block;
+    font-size: 2rem;
+    line-height: 2;
+  }
+  header ul.ul_header li.li_hamb img {
+    right: 0;
+    height: auto !important;
+    width: 8rem !important;
+  }
+  main .udm_sectie_kaartjes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    width: 53%;
+    bottom: 32rem;
+  }
+  main .udm_sectie_kaartjes .kaart_h2 {
+    width: unset;
+    font-size: 1.4rem;
+  }
+  main .udm_sectie_kaartjes .kaartjes_p {
+    width: unset;
+    font-size: 1rem;
+  }
+  main .udm_sectie_kaartjes .udm_kaart_div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 2rem;
+    width: calc(100% - 2.5rem);
+    height: 10rem;
+    top: 20rem;
+  }
+  main .udm_artikel4 {
+    left: unset;
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .txt_artikel_udm {
+    font-size: 2rem;
+    text-align: center;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .p_article_udemy {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+    height: 100%;
+    gap: 2rem;
+    margin-bottom: 8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .sectie_kaartjes_udm_h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+    gap: 1.3rem;
+    overflow: hidden;
+    height: 45rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.5rem 0.5rem 2rem 0.111rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    cursor: pointer;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_p13 {
+    color: rgb(155, 106, 14);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li .fa-star {
+    font-size: 1.5rem;
+    color: orange;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_momenteel {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_opmerking_kaartjes {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .div_kaartjes124:hover .overlay {
+    opacity: 1;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: 0.5s ease;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .udm_kaartjes_fotos12 {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 {
+    width: 70%;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl {
+    display: flex;
+    flex-direction: column;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt {
+    min-width: unset;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 4rem;
+    border: 0.1rem solid;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+  main .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+    font-size: 1.4rem;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .div-txt_kaartjes3 {
+    width: 100% !important;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .kaartjes_katogorie_udm {
+    background: #f7f9fa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 {
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .sub_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .p_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .h1_kotogieen_divs:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games {
+    width: 22rem;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games:hover {
+    background: rgba(0, 0, 0, 0.01);
+  }
+  main .instruc_actief {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .instruc_actief .sectie_intructeur {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image {
+    width: 100%;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image .intructie_foto {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0.5rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .h1_intractor {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .p_instractor {
+    width: 100%;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_mederwerker {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    padding: 2rem;
+    background: #b8ddef;
+    height: 100%;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .txt_tru_mewerkeras {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3%;
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    padding-bottom: 5rem;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team img {
+    width: 10rem;
+  }
+  main .sectie_udm_werk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1 {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .foto_txt_dm_werken1 {
+    max-width: 100%;
+    height: 40%;
+    object-fit: contain;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 {
+    display: flex;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 .imagefoto_udmey_werken_124 {
+    width: 100%;
+    min-height: 40rem;
+    object-fit: cover;
+  }
+  main .verander {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .verander .article_verander {
+    display: grid;
+    justify-content: center;
+  }
+  main .verander .article_verander .div_verander_image {
+    display: unset;
+    height: 100%;
+  }
+  main .verander .article_verander .div_verander_image .img_veranderen {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main .verander .article_verander .div_veranderen_text {
+    display: unset;
+    justify-content: unset;
+    padding: 3rem;
+    flex-direction: unset;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  main .verander .article_verander .div_veranderen_text .h1_div_veranderen_text {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .verander .article_verander .div_veranderen_text .p_div_veranderen_text {
+    width: 100%;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .footer {
+    width: 100%;
+    height: 100%;
+    background: #1c1d1f;
+    display: flex;
+    flex-direction: column;
+  }
+  main .footer .secite_footer {
+    padding: 4rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  main .footer .secite_footer .artikel_footer {
+    display: grid;
+    gap: 3.33%;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    justify-items: start;
+    grid-auto-columns: 100%;
+    grid-auto-flow: row;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer {
+    list-style: none;
+    display: unset;
+    flex-direction: unset;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer {
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer:hover {
+    text-decoration: underline;
+  }
+  main .footer .secite_footer .ul_bollen_footer {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    width: 14rem;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(255, 253, 253);
+    cursor: pointer;
+  }
+  main .footer .secite_footer .ul_bollen_footer:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  main .footer .secite_footer .ul_bollen_footer .foto_werked_footer {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  main .footer .artikel_iccooonje {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    color: white;
+  }
+  main .footer .artikel_iccooonje .iccoonjjess .foto_icooonjer {
+    max-width: 6rem;
+  }
+}
+@media (min-width: 700.1px) and (max-width: 820px) {
+  body {
+    width: 100%;
+  }
+  header .head_inlogggener, header .head_inschrijven {
+    border: unset;
+    color: #5624d0;
+    width: 100%;
+    text-align: start;
+    background: unset;
+  }
+  header ul.ul_header.unlock {
+    background: white;
+    left: 0rem;
+    top: 0rem;
+    z-index: 1022;
+    height: 100vh;
+    width: 60vh;
+    overflow: scroll;
+    position: absolute;
+  }
+  header ul.ul_header.unlock img.logo {
+    margin: auto;
+  }
+  header ul.ul_header.unlock li.li_hamb.li_head.lock {
+    display: none;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label {
+    width: 100%;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label img {
+    position: absolute;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label input {
+    width: 100%;
+    height: 4.2rem;
+    padding-left: 3.6rem;
+    border-radius: 4rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7) {
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7):after {
+    content: " Cart";
+    display: inline-block;
+    margin-left: 1rem;
+    width: 2rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(10) {
+    display: none;
+  }
+  header ul.ul_header {
+    display: grid !important;
+    width: 100%;
+    align-items: center;
+    justify-content: start !important;
+    box-shadow: 1rem 0 3rem 1rem rgba(0, 0, 0, 0.2);
+    list-style: none;
+    height: 8rem;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_head:not(.li_hamb) {
+    display: none;
+    left: -30rem;
+  }
+  header ul.ul_header li.li_head.unlock {
+    display: unset;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_hamb {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 140vh;
+  }
+  header ul.ul_header li.li_hamb i {
+    text-align: center;
+  }
+  header ul.ul_header li.li_hamb i:before {
+    content: "<|>";
+    display: block;
+    font-size: 2rem;
+    line-height: 2;
+  }
+  header ul.ul_header li.li_hamb img {
+    right: 0;
+    height: auto !important;
+    width: 8rem !important;
+  }
+  main .udm_sectie_kaartjes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    width: 33%;
+    bottom: 32rem;
+  }
+  main .udm_sectie_kaartjes .kaart_h2 {
+    width: unset;
+    font-size: 1.4rem;
+  }
+  main .udm_sectie_kaartjes .kaartjes_p {
+    width: unset;
+    font-size: 1rem;
+  }
+  main .udm_sectie_kaartjes .udm_kaart_div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 2rem;
+    width: calc(100% - 2.5rem);
+    height: 10rem;
+    top: 20rem;
+  }
+  main .udm_artikel4 {
+    left: unset;
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .txt_artikel_udm {
+    font-size: 1.8rem;
+    text-align: left;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .p_article_udemy {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+    height: 100%;
+    gap: 2rem;
+    margin-bottom: 8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .sectie_kaartjes_udm_h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+    gap: 1.3rem;
+    overflow: hidden;
+    height: 45rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.5rem 0.5rem 2rem 0.111rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    cursor: pointer;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_p13 {
+    color: rgb(155, 106, 14);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li .fa-star {
+    font-size: 1.5rem;
+    color: orange;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_momenteel {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_opmerking_kaartjes {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .div_kaartjes124:hover .overlay {
+    opacity: 1;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: 0.5s ease;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .udm_kaartjes_fotos12 {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 {
+    width: 70%;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl {
+    display: flex;
+    flex-direction: column;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt {
+    min-width: unset;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 4rem;
+    border: 0.1rem solid;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+  main .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+    font-size: 1.4rem;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .div-txt_kaartjes3 {
+    width: 100% !important;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .kaartjes_katogorie_udm {
+    background: #f7f9fa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 {
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .sub_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .p_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .h1_kotogieen_divs:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games {
+    width: 22rem;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games:hover {
+    background: rgba(0, 0, 0, 0.01);
+  }
+  main .instruc_actief {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .instruc_actief .sectie_intructeur {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image {
+    width: 100%;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image .intructie_foto {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0.5rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .h1_intractor {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .p_instractor {
+    width: 100%;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_mederwerker {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    padding: 2rem;
+    background: #b8ddef;
+    height: 100%;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .txt_tru_mewerkeras {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3%;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    padding-bottom: 5rem;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team img {
+    width: 8rem;
+  }
+  main .sectie_udm_werk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1 {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .foto_txt_dm_werken1 {
+    max-width: 100%;
+    height: 40%;
+    object-fit: contain;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 {
+    display: flex;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 .imagefoto_udmey_werken_124 {
+    width: 100%;
+    min-height: 40rem;
+    object-fit: cover;
+  }
+  main .verander {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .verander .article_verander {
+    display: grid;
+    justify-content: center;
+  }
+  main .verander .article_verander .div_verander_image {
+    display: unset;
+    height: 100%;
+  }
+  main .verander .article_verander .div_verander_image .img_veranderen {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main .verander .article_verander .div_veranderen_text {
+    display: unset;
+    justify-content: unset;
+    padding: 3rem;
+    flex-direction: unset;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  main .verander .article_verander .div_veranderen_text .h1_div_veranderen_text {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .verander .article_verander .div_veranderen_text .p_div_veranderen_text {
+    width: 100%;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .footer {
+    width: 100%;
+    height: 100%;
+    background: #1c1d1f;
+    display: flex;
+    flex-direction: column;
+  }
+  main .footer .secite_footer {
+    padding: 4rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  main .footer .secite_footer .artikel_footer {
+    display: grid;
+    gap: 3.33%;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    justify-items: start;
+    grid-auto-columns: 100%;
+    grid-auto-flow: row;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer {
+    list-style: none;
+    display: unset;
+    flex-direction: unset;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer {
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer:hover {
+    text-decoration: underline;
+  }
+  main .footer .secite_footer .ul_bollen_footer {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    width: 14rem;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(255, 253, 253);
+    cursor: pointer;
+  }
+  main .footer .secite_footer .ul_bollen_footer:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  main .footer .secite_footer .ul_bollen_footer .foto_werked_footer {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  main .footer .artikel_iccooonje {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    color: white;
+  }
+  main .footer .artikel_iccooonje .iccoonjjess .foto_icooonjer {
+    max-width: 6rem;
+  }
+}
+@media (min-width: 820.1px) and (max-width: 1023.9px) {
+  body {
+    width: 100%;
+  }
+  header .head_inlogggener, header .head_inschrijven {
+    border: unset;
+    color: #5624d0;
+    width: 100%;
+    text-align: start;
+    background: unset;
+  }
+  header ul.ul_header.unlock {
+    background: white;
+    left: 0rem;
+    top: 0rem;
+    z-index: 1022;
+    height: 100vh;
+    width: 60vh;
+    overflow: scroll;
+    position: absolute;
+  }
+  header ul.ul_header.unlock img.logo {
+    margin: auto;
+  }
+  header ul.ul_header.unlock li.li_hamb.li_head.lock {
+    display: none;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label {
+    width: 100%;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label img {
+    position: absolute;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(4) label input {
+    width: 100%;
+    height: 4.2rem;
+    padding-left: 3.6rem;
+    border-radius: 4rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7) {
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    display: flex;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(7):after {
+    content: " Cart";
+    display: inline-block;
+    margin-left: 1rem;
+    width: 2rem;
+  }
+  header ul.ul_header.unlock li.li_head.unlock:nth-child(10) {
+    display: none;
+  }
+  header ul.ul_header {
+    display: grid !important;
+    width: 100%;
+    align-items: center;
+    justify-content: start !important;
+    box-shadow: 1rem 0 3rem 1rem rgba(0, 0, 0, 0.2);
+    list-style: none;
+    height: 8rem;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_head:not(.li_hamb) {
+    display: none;
+    left: -30rem;
+  }
+  header ul.ul_header li.li_head.unlock {
+    display: unset;
+    transition: all 0.5s;
+  }
+  header ul.ul_header li.li_hamb {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-width: 183vh;
+  }
+  header ul.ul_header li.li_hamb i {
+    text-align: center;
+  }
+  header ul.ul_header li.li_hamb i:before {
+    content: "<|>";
+    display: block;
+    font-size: 2rem;
+    line-height: 2;
+  }
+  header ul.ul_header li.li_hamb img {
+    right: 0;
+    height: auto !important;
+    width: 8rem !important;
+  }
+  main .udm_sectie_kaartjes {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 5rem;
+    width: 45%;
+    bottom: 33rem;
+  }
+  main .udm_sectie_kaartjes .kaart_h2 {
+    width: unset;
+    font-size: 1.8rem;
+  }
+  main .udm_sectie_kaartjes .kaartjes_p {
+    width: unset;
+    font-size: 1.4rem;
+  }
+  main .udm_sectie_kaartjes .udm_kaart_div2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 2rem;
+    width: calc(100% - 2.5rem);
+    height: 10rem;
+    top: 20rem;
+  }
+  main .udm_artikel4 {
+    left: unset;
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .txt_artikel_udm {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+  main .udm_artikel4 .udm_sectie-van_keuze .p_article_udemy {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;
+    height: 100%;
+    gap: 2rem;
+    margin-bottom: 8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .sectie_kaartjes_udm_h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm {
+    display: grid;
+    grid-auto-columns: 33.33333333%;
+    grid-auto-flow: column;
+    gap: 1.3rem;
+    overflow: hidden;
+    height: 40rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 {
+    width: 100%;
+    height: 30rem;
+    box-shadow: 0.5rem 0.5rem 2rem 0.111rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_p13 {
+    color: rgb(155, 106, 14);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .bericht_div_sterretjes .bericht_li .fa-star {
+    font-size: 1.5rem;
+    color: orange;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_momenteel {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .artikel_txt_kaartjes1234 .prijs_kaartjes12 .prijs_opmerking_kaartjes {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: line-through;
+    font-size: 1.8rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .div_kaartjes124:hover .overlay {
+    opacity: 1;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: 0.5s ease;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm .div_kaartjes124 .udm_kaartjes_fotos12 {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 {
+    width: 70%;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl {
+    display: flex;
+    flex-direction: column;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt {
+    min-width: unset;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 4rem;
+    border: 0.1rem solid;
+    background: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .carousl .knopjes_kaartjes_txt:hover {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+  main .udm_kaaartjes_artikel {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes {
+    color: rgba(0, 0, 0, 0.9);
+    list-style: none;
+    font-size: 2rem;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  main .udm_kaaartjes_artikel .div_kaartjes .article_carousel_horizontal {
+    min-height: 50rem;
+    background: green;
+  }
+  main .div-txt_kaartjes3 {
+    width: 100% !important;
+    padding: 3rem;
+    min-height: 30rem;
+    gap: 2rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+  }
+  main .div-txt_kaartjes3 .img_kaartjes21 {
+    min-width: 100%;
+    max-height: 40rem;
+    object-fit: cover;
+  }
+  main .div-txt_kaartjes3 .kaartjes_p {
+    width: 100%;
+  }
+  main .kaartjes_katogorie_udm {
+    background: #f7f9fa;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .sub_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .p_kotogieen_divs:hover {
+    color: orange;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  main .kaartjes_katogorie_udm .div_kotogorie_kaartjes56 .artikel_katogorie_123 .kotogieen_divs .h1_kotogieen_divs:hover {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games {
+    width: 22rem;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    background: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .kaartjes_katogorie_udm .knopjes_katogorieeen_games:hover {
+    background: rgba(0, 0, 0, 0.01);
+  }
+  main .instruc_actief {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  main .instruc_actief .sectie_intructeur {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: nowrap;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image {
+    width: 46%;
+  }
+  main .instruc_actief .sectie_intructeur .div_instractor_image .intructie_foto {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1%;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .h1_intractor {
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .p_instractor {
+    width: 100%;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  main .instruc_actief .sectie_intructeur .div_intractor_text .knopje_intrs:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_mederwerker {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    padding: 2rem;
+    background: #b8ddef;
+    height: 100%;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .txt_tru_mewerkeras {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3%;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    padding-bottom: 5rem;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team img {
+    width: 8rem;
+  }
+  main .sectie_udm_werk {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 {
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1 {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    cursor: pointer;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .buttonfoto_txt_dm_werken1:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .div-udm_txt_werk .foto_txt_dm_werken1 {
+    max-width: 100%;
+    height: 40%;
+    object-fit: contain;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 {
+    display: flex;
+  }
+  main .sectie_udm_werk .atikel_udm_werk3 .foto_udmey_werken_124 .imagefoto_udmey_werken_124 {
+    width: 100%;
+    min-height: 40rem;
+    object-fit: cover;
+  }
+  main .verander {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  main .verander .article_verander .div_verander_image {
+    height: 100%;
+  }
+  main .verander .article_verander .div_verander_image .img_veranderen {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main .verander .article_verander .div_veranderen_text {
+    padding: 3rem;
+    gap: 1.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+  main .verander .article_verander .div_veranderen_text .h1_div_veranderen_text {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main .verander .article_verander .div_veranderen_text .p_div_veranderen_text {
+    width: 100%;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander {
+    width: 100%;
+    height: 4rem;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  main .verander .article_verander .div_veranderen_text .knopjes_verander:hover {
+    background: rgb(0, 0, 0);
+  }
+  main .footer {
+    width: 100%;
+    height: 100%;
+    background: #1c1d1f;
+    display: flex;
+    flex-direction: column;
+  }
+  main .footer .secite_footer {
+    padding: 4rem;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-content: center;
+    align-items: flex-start;
+  }
+  main .footer .secite_footer .artikel_footer {
+    display: flex;
+    gap: 3.33%;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: row-reverse;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer {
+    list-style: none;
+    display: unset;
+    flex-direction: unset;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer {
+    font-size: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  main .footer .secite_footer .artikel_footer .ul_footer .li_footer:hover {
+    text-decoration: underline;
+  }
+  main .footer .secite_footer .ul_bollen_footer {
+    display: flex;
+    position: relative;
+    bottom: 2rem;
+    width: 45rem;
+    align-items: center;
+    height: 4rem;
+    padding: 1rem;
+    border: 0.1rem solid rgb(255, 253, 253);
+    cursor: pointer;
+  }
+  main .footer .secite_footer .ul_bollen_footer:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  main .footer .secite_footer .ul_bollen_footer .foto_werked_footer {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  main .footer .artikel_iccooonje {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    color: white;
+  }
+  main .footer .artikel_iccooonje .iccoonjjess .foto_icooonjer {
+    max-width: 6rem;
+  }
+}
+@media (min-width: 1024px) {
+  header .ul_header li.li_hamb.li_head {
+    display: none;
+  }
+  header .udm_sectie_kaartjes {
+    bottom: 23rem;
+    width: 45%;
+  }
+  main .udm_artikel4 {
+    left: 0;
+    width: 100%;
+  }
+  main .udm_artikel4 .udm_kaartjes3_sectie .div-txt_kaartjes3 {
+    width: 100%;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm {
+    height: 53rem;
+  }
+  main .udm_artikel4 .sectie_kaartjes_udm .artikel_kaartjes31_udm {
+    padding-bottom: 3rem;
+  }
+  main .kaartjes_katogorie_udm {
+    padding: 0 2rem;
+    height: 62rem;
+  }
+  main .sectie_mederwerker {
+    height: 35rem;
+    width: 100%;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker {
+    height: 35rem;
+  }
+  main .sectie_mederwerker .artikel_trust_medewerker .div_trusted_by_team {
+    flex-wrap: wrap;
+  }
+  main .sectie_udm_werk {
+    height: 35rem;
+    width: 100%;
+  }
+  footer .secite_footer .artikel_footer {
+    flex-direction: row-reverse;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
